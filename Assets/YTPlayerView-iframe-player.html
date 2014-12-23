@@ -23,7 +23,7 @@
 </head>
 <body>
     <div id="player"></div>
-    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="https://www.youtube.com/iframe_api" onerror="window.location.href = 'ytplayer://onError';"></script>
     <script>
     var player;
     YT.ready(function() {
